@@ -1,4 +1,4 @@
-# mediapipe_door_opener
+# mediapipe_door
 
 ## Overview
 This project allows the user to open/close a door by opening/closing their hand. It uses mediapipe to detect hand pose and I ran it on a raspberry pi 4.
