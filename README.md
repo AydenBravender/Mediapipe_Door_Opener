@@ -1,4 +1,5 @@
-# mediapipe_door
+# mediapipe_door_opener
+![This is an example of the mediapipe hand detection window][
 
 ## Overview
 I utilized the Mediapipe library to discern whether a hand was open or clenched. Subsequently, this data was transmitted via a socket to another program running on a Raspberry Pi 4. This secondary program then operated the door, opening it when the hand was open and closing it when clenched. The main program is titled 'Hand_Pose_Detection.py' which collects, analyzes, and sends data via socket to the second program titled 'Door_Open_close.py'. This program then uses the data to determine if the door should be opened, closed or left still. 
