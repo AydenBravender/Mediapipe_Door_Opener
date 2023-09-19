@@ -7,7 +7,7 @@
 
 <center>
 
-| ![This is an example of the mediapipe hand detection window](https://github.com/AydenBravender/mediapipe_door_opener/blob/main/mediapipe.gif?raw=true) | ![This is a video of the project in action](link_to_gif2.gif) |
+| ![This is an example of the mediapipe hand detection window](https://github.com/AydenBravender/mediapipe_door_opener/blob/main/mediapipe.gif?raw=true) | ![This is a video of the project in action](https://github.com/AydenBravender/mediapipe_door_opener/blob/main/dooropening.gif?raw=true) |
 |--------------------------|--------------------------|
 
 </center>
