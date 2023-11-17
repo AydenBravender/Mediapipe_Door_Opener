@@ -13,8 +13,9 @@ cap = cv2.VideoCapture(0)
 # Initialize Mediapipe hands
 with mp_hands.Hands(min_detection_confidence=0.5, min_tracking_confidence=0.5) as hands:
     client_socket = socket.socket()
-    # Change '127.0.0.1' with your computers ip address
-    client_socket.connect(('127.0.0.1', 11312))
+    
+    # Change with your computers ip address
+    client_socket.connect(( , ))
 
     last_processing_time = time.time()
     processing_interval = 0.3  # Process a frame every 0.3 seconds, this way the recieving program doesn't get overloaded with data
