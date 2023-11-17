@@ -19,8 +19,8 @@ steer.start(100)
 
 
 mediapipeRe_socket = socket.socket()
-# change '127.0.0.1' with your computers ip address
-mediapipeRe_socket.bind(('127.0.0.1', 11312))
+# change spaces with your computers ip address
+mediapipeRe_socket.bind(( , ))
 mediapipeRe_socket.listen(1)
 
 try:
